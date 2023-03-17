@@ -14,6 +14,7 @@
 		55EA8E5D29B9818A002D24AB /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA8E5C29B9818A002D24AB /* CalculatorView.swift */; };
 		55EA8E5F29B981A7002D24AB /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA8E5E29B981A7002D24AB /* HistoryView.swift */; };
 		55EA8E6129B98B88002D24AB /* BmiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA8E6029B98B88002D24AB /* BmiData.swift */; };
+		E6F5893F29C458AC00A9A3CD /* StateBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F5893E29C458AC00A9A3CD /* StateBinding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		55EA8E5C29B9818A002D24AB /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 		55EA8E5E29B981A7002D24AB /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		55EA8E6029B98B88002D24AB /* BmiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmiData.swift; sourceTree = "<group>"; };
+		E6F5893E29C458AC00A9A3CD /* StateBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBinding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				55EA8E5E29B981A7002D24AB /* HistoryView.swift */,
 				55BD8BFA29B59AAF009424D6 /* Assets.xcassets */,
 				55BD8BFC29B59AAF009424D6 /* Preview Content */,
+				E6F5893E29C458AC00A9A3CD /* StateBinding.swift */,
 			);
 			path = BMICalculatorC6N1;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				55BD8BF929B59AAE009424D6 /* ContentView.swift in Sources */,
 				55EA8E5F29B981A7002D24AB /* HistoryView.swift in Sources */,
 				55EA8E6129B98B88002D24AB /* BmiData.swift in Sources */,
+				E6F5893F29C458AC00A9A3CD /* StateBinding.swift in Sources */,
 				55EA8E5D29B9818A002D24AB /* CalculatorView.swift in Sources */,
 				55BD8BF729B59AAE009424D6 /* BMICalculatorC6N1App.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +321,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

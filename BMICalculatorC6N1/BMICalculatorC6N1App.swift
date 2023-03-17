@@ -11,7 +11,7 @@ import SwiftUI
 struct BMICalculatorC6N1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StateBinding()
         }
     }
 }

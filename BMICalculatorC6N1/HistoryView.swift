@@ -8,10 +8,16 @@
 import SwiftUI
 
 struct HistoryView: View {
+    
     @Binding var savedHistories: [BmiData]
+
     var body: some View {
-        List(savedHistories) { savedHistory in
-            HistoryItem(bmiData: savedHistory)
+        NavigationView {
+            List(savedHistories) { savedHistory in
+                NavigationLink(destination: EmptyView()) {
+                    HistoryItem(bmiData: savedHistory)
+                }
+            }.navigationTitle("History")
         }
     }
 }
