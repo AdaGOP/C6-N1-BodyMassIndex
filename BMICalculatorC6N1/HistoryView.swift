@@ -10,15 +10,11 @@ import SwiftUI
 struct HistoryView: View {
     
     @Binding var savedHistories: [BmiData]
-
+    
     var body: some View {
-        NavigationView {
-            List(savedHistories) { savedHistory in
-                NavigationLink(destination: EmptyView()) {
-                    HistoryItem(bmiData: savedHistory)
-                }
-            }.navigationTitle("History")
-        }
+        List(savedHistories) { savedHistory in
+            HistoryItem(bmiData: savedHistory)
+        }.navigationTitle("History")
     }
 }
 
